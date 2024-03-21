@@ -13,16 +13,14 @@
 
 <body>
     <header>
-        <div class="header-left">
-            <a target='_blank' href="https://wa.me/qr/VL3X6VWCXDVUK1">
-                <img src="{{ url_for('static', filename='whatsApp.png') }}" alt="Logo" class="logo">
-            </a>
-            <span class="phone-number">Contacto</span>
-        </div>
         <nav>
             <ul>
+                <div class="header-left">
+                    <li><a target='_blank' href="https://wa.me/qr/VL3X6VWCXDVUK1">
+                        <img src="{{ url_for('static', filename='whatsApp.png') }}" alt="Logo" class="logo"></a></li>
+                    <li><a  class="phone-number" target='_blank' href="https://wa.me/qr/VL3X6VWCXDVUK1">Contacto</a></li>
+                </div>
                 <li><a href="{{ url_for('portfolio.index') }}">Inicio</a></li>
-                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -30,7 +28,7 @@
     <div class="footer">
         <div class="center full-widht">
             <div class="row">
-                <h3>Contactame</h3>
+                <h3>Contáctame</h3>
             </div>
         </div>
         <div class="center full-widht">
@@ -46,7 +44,7 @@
         </div>
         <div class="made-with">
             <div class="row">
-                <p>Hecho con amor por Nicolas De Bella</p>
+                <p>Nicolas De Bella</p>
             </div>
         </div>
     </div>
